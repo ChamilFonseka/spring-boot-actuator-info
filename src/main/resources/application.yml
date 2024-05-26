@@ -16,3 +16,6 @@ management:
   endpoint:
     health:
       show-details: always
+  info:
+    java:
+      enabled: true
