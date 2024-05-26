@@ -1,6 +1,6 @@
 spring:
   application:
-    name: Spring Boot REST API
+    name: Spring Boot Actuator Info
 
 server:
     servlet:
