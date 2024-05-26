@@ -25,4 +25,4 @@ management:
       mode: full
 info:
   name: ${spring.application.name}
-  description: A Spring Boot application demonstrating a RESTful CRUD (Create, Read, Update, Delete) API with comprehensive testing and API documentation using OpenAPI
+  description: This project is configured to expose several helpful Info endpoints with Spring Boot Actuator.
