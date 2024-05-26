@@ -19,3 +19,8 @@ management:
   info:
     java:
       enabled: true
+    env:
+      enabled: true
+info:
+  name: ${spring.application.name}
+  description: A Spring Boot application demonstrating a RESTful CRUD (Create, Read, Update, Delete) API with comprehensive testing and API documentation using OpenAPI
