@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: Spring Boot REST API
+
+server:
+    servlet:
+      context-path: /api/v1
+    shutdown: graceful
+
+management:
+  endpoints:
+    web:
+      base-path: /management
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: always
